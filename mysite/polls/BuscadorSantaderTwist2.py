@@ -44,14 +44,14 @@ class Buscador:
   CadenaSQLTres=""""""
   CadenaSQLCuatro=""""""
   TerminosRelevantesUsuario=[]
-  TokensPatron=nltk.word_tokenize(patron)
+  TokensPatron=nltk.word_tokenize(patron.lower())
   StopWordsSpanish=stopwords.words('spanish')
   TokensPatronTemporal=[]
 
   for b in TokensPatron:
    IsStopWord=False
    for a in StopWordsSpanish:
-    if(a==b):
+    if(a.lower()==b.lower()):
      IsStopWord=True
    if not(IsStopWord):
     TokensPatronTemporal=TokensPatronTemporal+[b]
@@ -113,8 +113,7 @@ class Buscador:
 
   try:
    rows.execute(QueryString)
-   _con[0].close()
-   _con[1].close()
+   
   
    Busquedas=[]
    NDT=[1.0]*len(SinRuidoPatron)   
@@ -122,8 +121,81 @@ class Buscador:
    DimensionalidadDocumento=0.0
 
    for row in rows:
-    Busquedas=Busquedas+[[row[0],row[1],row[2],row[3],row[4]]]
+    DimensionalidadDocumento=DimensionalidadDocumento+1.0
+    Codificacion= (row[1].lower())+" "+(row[2].lower())+" "+(row[3].lower())+" "+(row[4].lower())
+    Codificacion= Codificacion.replace(".", "")
+    Codificacion= Codificacion.replace("-", "")
+    Codificacion= Codificacion.replace(":", "")
+    Codificacion= Codificacion.replace(",", "")
+    Codificacion= Codificacion.replace("?", "")
+    Codificacion= Codificacion.replace("!", "")
 
+    Tokens=nltk.word_tokenize(Codificacion)
+    TokensTemporal=[]
+
+    for b in Tokens:
+     IsStopWord=False
+     for a in StopWordsSpanish:
+      if(a.lower()==b):
+       IsStopWord=True
+     if not(IsStopWord):
+      TokensTemporal=TokensTemporal+[b]
+
+    Tokens=TokensTemporal
+    SinRuidoTokens=[]
+    SinRuidoTokens= [stemmer.stem(b) for b in Tokens]
+    Frecuencia=[0.0]*len(SinRuidoTokens)
+    
+    i=0
+    for a in SinRuidoPatron:
+     for b in SinRuidoTokens:
+      if (a==b):
+       if(MaquinaEstadosNDT[i]=='0'):
+        NDT[i]=NDT[i]+1
+        MaquinaEstadosNDT[i]='a'
+     MaquinaEstadosNDT[i]='0'
+     i=i+1
+
+    
+    i=0
+    for a in SinRuidoPatron:
+     for b in SinRuidoTokens:
+      if(a==b):
+       Frecuencia[i]=Frecuencia[i]+1.0
+     i=i+1
+    
+    Busquedas=Busquedas+[[row[0],row[1],row[2],row[3],row[4],Frecuencia]]
+
+   
+   i=0
+   while i <len(Busquedas):
+    j=0
+    while (j<len(NDT)):
+     TF=Busquedas[i][5][j]
+     IDF=(log(DimensionalidadDocumento/NDT[j]))
+     TF_IDF=(TF*IDF)
+     Busquedas[i][5][j]=TF_IDF
+     j=j+1
+    i=i+1
+  
+   i=0
+   while i < len(Busquedas):
+    j=0
+    Suma=0.0
+    while j < len(Busquedas[i][5]):
+     Suma=(Suma+Busquedas[i][5][j])       
+     j=j+1 
+
+    Busquedas[i][5]=Suma
+    i=i+1
+
+   Busquedas.sort(key=lambda x: x[5],reverse=True)
+   Busquedas=[a[0] for a in Busquedas]
+   
+
+   _con[0].close()
+   _con[1].close()
+  
    return Busquedas
 
   except:

@@ -672,3 +672,421 @@ Not Found: /
 Not Found: /favicon.ico
 [23/Nov/2017 17:27:51] "GET /favicon.ico HTTP/1.1" 404 2406
 [23/Nov/2017 17:27:59] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 7975
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 07:08:52
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 17:54:24] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 7975
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 17:53:21
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 17:56:42] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 7975
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 17:56:37
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 18:07:16] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 10700
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:07:08
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 18:12:37] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 10560
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:12:29
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 18:14:18] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 10529
+[23/Nov/2017 18:14:47] "GET /Busqueda/busqueda/promocion/latitud/23/amplitud/14 HTTP/1.1" 200 9645
+[23/Nov/2017 18:15:36] "GET /Busqueda/busqueda/f%C3%BAtbol/latitud/23/amplitud/14 HTTP/1.1" 200 9002
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:14:13
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 18:18:03] "GET /Busqueda/busqueda/f%C3%BAtbol/latitud/23/amplitud/14 HTTP/1.1" 200 8878
+[23/Nov/2017 18:18:39] "GET /Busqueda/busqueda/visa/latitud/23/amplitud/14 HTTP/1.1" 200 6994
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:17:54
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 18:20:13] "GET /Busqueda/busqueda/visa/latitud/23/amplitud/14 HTTP/1.1" 200 6994
+[23/Nov/2017 18:20:44] "GET /Busqueda/busqueda/f%C3%B9tbol/latitud/23/amplitud/14 HTTP/1.1" 200 8878
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:20:08
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 18:35:52] "GET /Busqueda/busqueda/f%C3%B9tbol/latitud/23/amplitud/14 HTTP/1.1" 200 8797
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:35:47
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /Busqueda/busqueda/fùtbol/latitud/23/amplitud/14
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/Django_Twist2/mysite/polls/views.py", line 23, in get
+    PrefijosLista=a.Buscar(busqueda)
+  File "/root/Django_Twist2/mysite/polls/BuscadorSantaderTwist2.py", line 172, in Buscar
+    _con[1].close()
+  File "/root/dev/local/lib/python2.7/site-packages/pymysql/connections.py", line 728, in close
+    raise err.Error("Already closed")
+Error: Already closed
+[23/Nov/2017 18:56:02] "GET /Busqueda/busqueda/f%C3%B9tbol/latitud/23/amplitud/14 HTTP/1.1" 500 107115
+Internal Server Error: /Busqueda/busqueda/fùtbol/latitud/23/amplitud/14
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/Django_Twist2/mysite/polls/views.py", line 23, in get
+    PrefijosLista=a.Buscar(busqueda)
+  File "/root/Django_Twist2/mysite/polls/BuscadorSantaderTwist2.py", line 172, in Buscar
+    _con[1].close()
+  File "/root/dev/local/lib/python2.7/site-packages/pymysql/connections.py", line 728, in close
+    raise err.Error("Already closed")
+Error: Already closed
+[23/Nov/2017 18:56:14] "GET /Busqueda/busqueda/f%C3%B9tbol/latitud/23/amplitud/14 HTTP/1.1" 500 107115
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:55:52
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 18:58:10] "GET /Busqueda/busqueda/f%C3%B9tbol/latitud/23/amplitud/14 HTTP/1.1" 200 6765
+[23/Nov/2017 18:58:26] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 6306
+[23/Nov/2017 18:58:41] "GET /Busqueda/busqueda/puntos/latitud/23/amplitud/14 HTTP/1.1" 200 6312
+[23/Nov/2017 18:59:00] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5632
+[23/Nov/2017 18:59:08] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5632
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 18:58:02
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:01:39] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5681
+[23/Nov/2017 19:01:45] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5681
+[23/Nov/2017 19:01:57] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5709
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:01:29
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:02:24] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5709
+[23/Nov/2017 19:02:28] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5709
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:02:18
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:05:07] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5806
+[23/Nov/2017 19:05:11] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5806
+[23/Nov/2017 19:05:16] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5778
+[23/Nov/2017 19:05:30] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 6325
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:04:59
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fce40bf9758>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/root/dev/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/root/dev/local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/dev/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/root/dev/local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/root/dev/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/root/Django_Twist2/mysite/mysite/urls.py", line 19, in <module>
+    from polls import views
+  File "/root/Django_Twist2/mysite/polls/views.py", line 10, in <module>
+    from BuscadorSantaderTwist2 import Buscador
+  File "/root/Django_Twist2/mysite/polls/BuscadorSantaderTwist2.py", line 169
+    Busquedas=Busquedas+[[row[0],row[1],row[2],row[3],row[4],SinRuidoTokens]]
+            ^
+SyntaxError: invalid syntax
+[23/Nov/2017 19:08:37] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:08:34
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /Busqueda/busqueda/promo/latitud/23/amplitud/14
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/Django_Twist2/mysite/polls/views.py", line 23, in get
+    PrefijosLista=a.Buscar(busqueda)
+  File "/root/Django_Twist2/mysite/polls/BuscadorSantaderTwist2.py", line 172, in Buscar
+    _con[1].close()
+  File "/root/dev/local/lib/python2.7/site-packages/pymysql/connections.py", line 728, in close
+    raise err.Error("Already closed")
+Error: Already closed
+[23/Nov/2017 19:11:12] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 500 106091
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:11:07
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:16:07] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:16:03
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:20:15] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+[23/Nov/2017 19:20:18] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:20:09
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:21:40] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+[23/Nov/2017 19:21:42] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+[23/Nov/2017 19:21:43] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+[23/Nov/2017 19:21:45] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+[23/Nov/2017 19:21:46] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:21:36
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fe5905a4758>
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 230, in wrapper
+    _exception = sys.exc_info()
+AttributeError: 'NoneType' object has no attribute 'exc_info'
+[23/Nov/2017 19:23:31] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+[23/Nov/2017 19:23:32] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 9389
+[23/Nov/2017 19:23:42] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 8771
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:23:28
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:25:09] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 10439
+[23/Nov/2017 19:26:06] "GET /Busqueda/busqueda/futbol%20fan/latitud/23/amplitud/14 HTTP/1.1" 200 8801
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:25:05
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:30:03] "GET /Busqueda/busqueda/futbol%20fan/latitud/23/amplitud/14 HTTP/1.1" 200 8481
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:29:59
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:48:22] "GET /Busqueda/busqueda/futbol%20fan/latitud/23/amplitud/14 HTTP/1.1" 200 7672
+[23/Nov/2017 19:48:45] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 8870
+[23/Nov/2017 19:49:10] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 7045
+[23/Nov/2017 19:49:34] "GET /Busqueda/busqueda/viaje%20corte/latitud/23/amplitud/14 HTTP/1.1" 200 5775
+[23/Nov/2017 19:49:51] "GET /Busqueda/busqueda/viaje%20corte/latitud/23/amplitud/14 HTTP/1.1" 200 5775
+[23/Nov/2017 19:53:07] "GET /Busqueda/busqueda/viaje%20corte/latitud/23/amplitud/14 HTTP/1.1" 200 5775
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:48:16
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:56:07] "GET /Busqueda/busqueda/viaje%20corte/latitud/23/amplitud/14 HTTP/1.1" 200 5446
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[23/Nov/2017 19:56:07] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[23/Nov/2017 19:56:15] "GET /Busqueda/busqueda/viaje/latitud/23/amplitud/14 HTTP/1.1" 200 5400
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:56:02
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 19:57:20] "GET /Busqueda/busqueda/viaje/latitud/23/amplitud/14 HTTP/1.1" 200 6105
+[23/Nov/2017 19:57:33] "GET /Busqueda/busqueda/viaje%20corte/latitud/23/amplitud/14 HTTP/1.1" 200 5643
+[23/Nov/2017 19:57:54] "GET /Busqueda/busqueda/viaje/latitud/23/amplitud/14 HTTP/1.1" 200 6105
+[23/Nov/2017 19:58:10] "GET /Busqueda/busqueda/viaje%209%20de%20junio/latitud/23/amplitud/14 HTTP/1.1" 200 5496
+[23/Nov/2017 19:58:28] "GET /Busqueda/busqueda/viaje%20junio/latitud/23/amplitud/14 HTTP/1.1" 200 5446
+[23/Nov/2017 19:58:40] "GET /Busqueda/busqueda/junio/latitud/23/amplitud/14 HTTP/1.1" 200 5924
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 19:57:16
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 20:01:25] "GET /Busqueda/busqueda/junio/latitud/23/amplitud/14 HTTP/1.1" 200 5924
+[23/Nov/2017 20:01:27] "GET /Busqueda/busqueda/junio/latitud/23/amplitud/14 HTTP/1.1" 200 5924
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 20:01:20
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 20:03:16] "GET /Busqueda/busqueda/junio/latitud/23/amplitud/14 HTTP/1.1" 200 6140
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 20:03:13
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 20:12:10] "GET /Busqueda/busqueda/junio/latitud/23/amplitud/14 HTTP/1.1" 200 5924
+[23/Nov/2017 20:12:19] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 6111
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 20:12:07
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 20:14:07] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 5447
+[23/Nov/2017 20:15:08] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 5447
+[23/Nov/2017 20:15:36] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14?format=json HTTP/1.1" 200 25
+[23/Nov/2017 20:16:40] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 5447
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[23/Nov/2017 20:16:41] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[23/Nov/2017 20:16:41] "GET /favicon.ico HTTP/1.1" 404 2406
+[23/Nov/2017 20:16:44] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 5447
+[23/Nov/2017 20:16:46] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14?format=json HTTP/1.1" 200 25
+[23/Nov/2017 20:16:51] "OPTIONS /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 5828
+[23/Nov/2017 20:17:00] "GET /Busqueda/busqueda/LIGAS/latitud/23/amplitud/14 HTTP/1.1" 200 5442
+[23/Nov/2017 20:17:05] "GET /Busqueda/busqueda/LIGA/latitud/23/amplitud/14 HTTP/1.1" 200 5436
+[23/Nov/2017 20:17:12] "GET /Busqueda/busqueda/FUTBOL/latitud/23/amplitud/14 HTTP/1.1" 200 5449
+[23/Nov/2017 20:18:52] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14?format=json HTTP/1.1" 200 25
+[23/Nov/2017 20:19:02] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14?format=json HTTP/1.1" 200 19
+[23/Nov/2017 20:19:15] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 5447
+[23/Nov/2017 20:19:25] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[23/Nov/2017 20:19:43] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[23/Nov/2017 20:20:02] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[23/Nov/2017 20:20:34] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14?format=json HTTP/1.1" 200 19
