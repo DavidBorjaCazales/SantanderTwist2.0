@@ -374,3 +374,301 @@ Quit the server with CONTROL-C.
 Not Found: /favicon.ico
 [23/Nov/2017 00:23:09] "GET /favicon.ico HTTP/1.1" 404 2406
 [23/Nov/2017 00:58:02] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 01:10:24] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14 HTTP/1.1" 200 5481
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[23/Nov/2017 01:10:24] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[23/Nov/2017 01:10:27] "OPTIONS /Busqueda/busqueda/modas/latitud/23/amplitud/14 HTTP/1.1" 200 5822
+[23/Nov/2017 01:16:05] "OPTIONS /Busqueda/busqueda/modas/latitud/23/amplitud/14 HTTP/1.1" 200 5822
+[23/Nov/2017 01:16:06] "OPTIONS /Busqueda/busqueda/modas/latitud/23/amplitud/14 HTTP/1.1" 200 5822
+[23/Nov/2017 01:19:13] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 01:19:25] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 01:20:39] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 01:20:40] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 01:21:25] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 01:22:20] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 01:22:21] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 01:28:41] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 01:31:02] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 01:31:03] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 01:32:57] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 02:57:48] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 03:31:08] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[23/Nov/2017 03:31:08] "   TZ          0I    €¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[23/Nov/2017 04:01:27] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 04:07:08] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 04:08:15] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 04:08:21] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 05:08:08] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 05:10:02] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:04] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:10] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:10] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:10] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:10] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:11] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:11] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:11] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:11] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:11] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:11] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:12] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:12] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:12] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:12] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:12] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:12] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:12] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:13] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:13] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:13] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:13] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:13] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:13] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:14] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:14] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:14] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:14] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:15] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:15] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:15] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:15] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:16] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:16] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:16] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:16] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:16] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:16] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:16] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:17] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:17] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:17] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:17] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:17] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:18] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:18] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:18] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:18] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:18] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:18] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:19] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:19] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:19] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:19] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:19] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:19] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:19] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:20] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:20] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:20] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:20] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:20] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:20] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:20] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:21] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:21] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:21] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:21] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:21] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:21] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:22] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:22] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:22] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:22] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:22] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:22] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:23] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:23] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:23] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:23] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:23] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:23] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:23] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:24] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:24] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:24] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:24] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:24] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:26] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:26] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:26] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:26] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:26] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:10:26] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:12:00] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:12:35] "GET /Busqueda/busqueda/gloria/latitud/23/amplitud/14?format=json HTTP/1.1" 200 56
+[23/Nov/2017 05:13:22] "GET /Busqueda/busqueda/gloria/latitud/23/amplitud/14?format=json HTTP/1.1" 200 56
+[23/Nov/2017 05:14:20] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 34
+[23/Nov/2017 05:15:19] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14?format=json HTTP/1.1" 200 16
+[23/Nov/2017 05:15:54] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 34
+[23/Nov/2017 05:16:09] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14?format=json HTTP/1.1" 200 16
+[23/Nov/2017 05:16:26] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14?format=json HTTP/1.1" 200 16
+[23/Nov/2017 05:16:51] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[23/Nov/2017 05:17:11] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 83
+[23/Nov/2017 05:17:16] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 83
+[23/Nov/2017 05:17:52] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14?format=json HTTP/1.1" 200 16
+[23/Nov/2017 05:17:52] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 34
+[23/Nov/2017 05:17:52] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 34
+[23/Nov/2017 05:17:52] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14?format=json HTTP/1.1" 200 16
+[23/Nov/2017 05:17:52] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 83
+[23/Nov/2017 05:25:51] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:34:07] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 34
+[23/Nov/2017 05:34:14] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 84
+[23/Nov/2017 05:34:29] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 83
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 00:08:34
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 06:32:30] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14 HTTP/1.1" 200 5507
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[23/Nov/2017 06:32:31] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[23/Nov/2017 06:32:40] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14 HTTP/1.1" 200 5507
+[23/Nov/2017 06:32:56] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 7073
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 06:32:18
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 06:41:23] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 7073
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 06:38:33
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 06:47:36] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 7073
+[23/Nov/2017 06:47:58] "GET /Busqueda/busqueda/anuncio/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[23/Nov/2017 06:48:08] "GET /Busqueda/busqueda/especial/latitud/23/amplitud/14 HTTP/1.1" 200 5418
+[23/Nov/2017 06:48:18] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5737
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 06:47:29
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 06:57:18] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5943
+[23/Nov/2017 06:57:36] "GET /Busqueda/busqueda/compras/latitud/23/amplitud/14 HTTP/1.1" 200 6992
+[23/Nov/2017 06:58:08] "GET /Busqueda/busqueda/compras%20de%20semana%20santa/latitud/23/amplitud/14 HTTP/1.1" 200 6116
+[23/Nov/2017 06:59:03] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5804
+[23/Nov/2017 06:59:34] "GET /Busqueda/busqueda/liga%20espa%C3%B1ola/latitud/23/amplitud/14 HTTP/1.1" 200 5630
+[23/Nov/2017 06:59:48] "GET /Busqueda/busqueda/home/latitud/23/amplitud/14 HTTP/1.1" 200 9777
+[23/Nov/2017 07:03:06] "GET /Busqueda/busqueda/home/latitud/23/amplitud/14 HTTP/1.1" 200 9777
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 06:57:12
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 07:04:54] "GET /Busqueda/busqueda/home/latitud/23/amplitud/14 HTTP/1.1" 200 10696
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 07:04:36
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 07:08:56] "GET /Busqueda/busqueda/home/latitud/23/amplitud/14 HTTP/1.1" 200 10696
+[23/Nov/2017 07:09:10] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 6491
+[23/Nov/2017 07:10:02] "GET /Busqueda/busqueda/cine/latitud/23/amplitud/14 HTTP/1.1" 200 5707
+[23/Nov/2017 07:10:17] "GET /Busqueda/busqueda/gp/latitud/23/amplitud/14 HTTP/1.1" 200 6005
+[23/Nov/2017 07:10:34] "GET /Busqueda/busqueda/bryam/latitud/23/amplitud/14 HTTP/1.1" 200 5400
+[23/Nov/2017 07:10:42] "GET /Busqueda/busqueda/adams/latitud/23/amplitud/14 HTTP/1.1" 200 5756
+[23/Nov/2017 07:11:00] "GET /Busqueda/busqueda/viajes%20cancun/latitud/23/amplitud/14 HTTP/1.1" 200 5458
+[23/Nov/2017 07:11:12] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 6060
+[23/Nov/2017 07:11:24] "GET /Busqueda/busqueda/kidsania/latitud/23/amplitud/14 HTTP/1.1" 200 5418
+[23/Nov/2017 07:11:33] "GET /Busqueda/busqueda/kidzania/latitud/23/amplitud/14 HTTP/1.1" 200 5720
+[23/Nov/2017 07:12:00] "GET /Busqueda/busqueda/kidzania/latitud/23/amplitud/14 HTTP/1.1" 200 5720
+[23/Nov/2017 07:12:20] "GET /Busqueda/busqueda/mastercard%20promociones/latitud/23/amplitud/14 HTTP/1.1" 200 5512
+[23/Nov/2017 07:12:29] "GET /Busqueda/busqueda/mastercard/latitud/23/amplitud/14 HTTP/1.1" 200 6834
+[23/Nov/2017 07:12:43] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5889
+[23/Nov/2017 07:13:10] "GET /Busqueda/busqueda/nfl/latitud/23/amplitud/14 HTTP/1.1" 200 5388
+[23/Nov/2017 07:13:18] "GET /Busqueda/busqueda/nfl/latitud/23/amplitud/14 HTTP/1.1" 200 5388
+[23/Nov/2017 07:13:30] "GET /Busqueda/busqueda/NFL/latitud/23/amplitud/14 HTTP/1.1" 200 5388
+[23/Nov/2017 07:15:11] "GET /Busqueda/busqueda/NFL/latitud/23/amplitud/14 HTTP/1.1" 200 5388
+[23/Nov/2017 07:15:25] "GET /Busqueda/busqueda/futboll/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[23/Nov/2017 07:15:41] "GET /Busqueda/busqueda/futball/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[23/Nov/2017 07:15:56] "GET /Busqueda/busqueda/teatro/latitud/23/amplitud/14 HTTP/1.1" 200 7503
+[23/Nov/2017 08:13:55] "GET /Busqueda/busqueda/teatro/latitud/23/amplitud/14 HTTP/1.1" 200 7503
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[23/Nov/2017 08:13:56] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[23/Nov/2017 08:14:16] "GET /Busqueda/busqueda/julio/latitud/23/amplitud/14 HTTP/1.1" 200 7495
+[23/Nov/2017 08:14:56] "GET /Busqueda/busqueda/flamenco%20para%20julio/latitud/23/amplitud/14 HTTP/1.1" 200 5504
+[23/Nov/2017 08:15:05] "GET /Busqueda/busqueda/flamenco%20para%20julio/latitud/23/amplitud/14 HTTP/1.1" 200 5504
+[23/Nov/2017 08:15:11] "GET /Busqueda/busqueda/flamenco/latitud/23/amplitud/14 HTTP/1.1" 200 5834
+[23/Nov/2017 08:15:34] "GET /Busqueda/busqueda/flamenco%20julio/latitud/23/amplitud/14 HTTP/1.1" 200 5464
+[23/Nov/2017 08:16:07] "GET /Busqueda/busqueda/carrera/latitud/23/amplitud/14 HTTP/1.1" 200 5567
+[23/Nov/2017 15:21:42] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14 HTTP/1.1" 200 5400
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[23/Nov/2017 15:21:42] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[23/Nov/2017 15:21:43] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[23/Nov/2017 15:21:43] "GET /favicon.ico HTTP/1.1" 404 2406
+[23/Nov/2017 15:21:50] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5889
+[23/Nov/2017 15:22:02] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 6710
+[23/Nov/2017 15:22:30] "GET /Busqueda/busqueda/promociones%20exclusivas/latitud/23/amplitud/14 HTTP/1.1" 200 6129
+Not Found: /
+[23/Nov/2017 15:28:10] "GET / HTTP/1.1" 404 2355
+[23/Nov/2017 17:27:50] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14 HTTP/1.1" 200 5400
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[23/Nov/2017 17:27:51] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[23/Nov/2017 17:27:51] "GET /favicon.ico HTTP/1.1" 404 2406
+[23/Nov/2017 17:27:59] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14 HTTP/1.1" 200 7975

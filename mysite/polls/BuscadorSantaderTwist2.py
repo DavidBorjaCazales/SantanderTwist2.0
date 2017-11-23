@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -39,8 +38,11 @@ class Buscador:
   """
    En este paratado tenemos el algoritmo para buscar en tryme.
   """
-  i=0
-  CadenaSQL=""""""
+  
+  CadenaSQLUno=""""""
+  CadenaSQLDos=""""""
+  CadenaSQLTres=""""""
+  CadenaSQLCuatro=""""""
   TerminosRelevantesUsuario=[]
   TokensPatron=nltk.word_tokenize(patron)
   StopWordsSpanish=stopwords.words('spanish')
@@ -60,18 +62,50 @@ class Buscador:
   SinRuidoPatron=[]
   SinRuidoPatron= [stemmer.stem(a) for a in TokensPatron]
 
-  
+  i=0  
   while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQL=CadenaSQL+"lower(campaign_name) like '%"+SinRuidoPatron[i]+"%' and "
+   CadenaSQLUno=CadenaSQLUno+"lower(campaign_name) like '%"+SinRuidoPatron[i]+"%' and "
    i=i+1
  
   if (len(SinRuidoPatron)>0):
-   CadenaSQL=CadenaSQL+"lower(campaign_name) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
+   CadenaSQLUno=CadenaSQLUno+"lower(campaign_name) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
 
+  CadenaSQLUno="("+CadenaSQLUno+")"
+
+  i=0  
+  while(i<(len(SinRuidoPatron)-1)):
+   CadenaSQLDos=CadenaSQLDos+"lower(title) like '%"+SinRuidoPatron[i]+"%' and "
+   i=i+1
  
-  CadenaSQL="("+CadenaSQL+")"
+  if (len(SinRuidoPatron)>0):
+   CadenaSQLDos=CadenaSQLDos+"lower(title) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
 
-  QueryString= "select campaign_id,campaign_name from campaigns where "+CadenaSQL
+  CadenaSQLDos="("+CadenaSQLDos+")"
+
+
+  i=0  
+  while(i<(len(SinRuidoPatron)-1)):
+   CadenaSQLTres=CadenaSQLTres+"lower(home) like '%"+SinRuidoPatron[i]+"%' and "
+   i=i+1
+ 
+  if (len(SinRuidoPatron)>0):
+   CadenaSQLTres=CadenaSQLTres+"lower(home) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
+
+  CadenaSQLTres="("+CadenaSQLTres+")"
+
+  i=0  
+  while(i<(len(SinRuidoPatron)-1)):
+   CadenaSQLCuatro=CadenaSQLCuatro+"lower(paragraph) like '%"+SinRuidoPatron[i]+"%' and "
+   i=i+1
+ 
+  if (len(SinRuidoPatron)>0):
+   CadenaSQLCuatro=CadenaSQLCuatro+"lower(paragraph) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
+
+  CadenaSQLCuatro="("+CadenaSQLCuatro+")"
+
+
+
+  QueryString= "select campaign_id,campaign_name,title,home,paragraph from campaigns where ("+CadenaSQLUno+" or "+CadenaSQLDos+" or  "+CadenaSQLTres+" or "+CadenaSQLCuatro+")"
 
   _con = getCon()
 
@@ -88,7 +122,7 @@ class Buscador:
    DimensionalidadDocumento=0.0
 
    for row in rows:
-    Busquedas=Busquedas+[[row[0],row[1]]]
+    Busquedas=Busquedas+[[row[0],row[1],row[2],row[3],row[4]]]
 
    return Busquedas
 
