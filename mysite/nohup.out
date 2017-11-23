@@ -1,0 +1,376 @@
+[22/Nov/2017 17:27:36] "GET / HTTP/1.1" 200 1716
+[22/Nov/2017 17:30:19] "GET / HTTP/1.1" 200 1716
+[22/Nov/2017 17:34:03] "GET / HTTP/1.1" 200 1716
+[22/Nov/2017 17:34:53] "GET / HTTP/1.1" 200 1716
+[22/Nov/2017 17:47:27] "GET / HTTP/1.1" 200 1716
+[22/Nov/2017 17:48:25] "GET / HTTP/1.1" 200 1716
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 17:27:29
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[22/Nov/2017 19:00:00] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[22/Nov/2017 19:00:01] "GET /favicon.ico HTTP/1.1" 404 1967
+[22/Nov/2017 19:00:03] "GET / HTTP/1.1" 200 1716
+[22/Nov/2017 19:09:05] "GET / HTTP/1.1" 200 1716
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 18:58:40
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 19:47:18
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 19:49:00
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[22/Nov/2017 19:50:02] "GET / HTTP/1.1" 404 2355
+[22/Nov/2017 19:50:11] "GET /admin HTTP/1.1" 301 0
+[22/Nov/2017 19:50:11] "GET /admin/ HTTP/1.1" 302 0
+[22/Nov/2017 19:50:12] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[22/Nov/2017 19:50:12] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[22/Nov/2017 19:50:12] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[22/Nov/2017 19:50:12] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[22/Nov/2017 19:50:12] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[22/Nov/2017 19:50:12] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[22/Nov/2017 19:51:04] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14 HTTP/1.1" 200 5497
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[22/Nov/2017 19:51:04] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[22/Nov/2017 19:51:10] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14?format=json HTTP/1.1" 200 51
+[22/Nov/2017 19:51:13] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14?format=json HTTP/1.1" 200 51
+[22/Nov/2017 19:53:07] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14?format=json HTTP/1.1" 200 51
+[22/Nov/2017 19:53:42] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14?format=json HTTP/1.1" 200 51
+[22/Nov/2017 21:52:43] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14?format=json HTTP/1.1" 200 51
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 19:49:36
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/Django_Twist2/mysite/polls/views.py", line 23, in get
+    PrefijosLista=a.Buscador(busqueda)
+AttributeError: Buscador instance has no attribute 'Buscador'
+[22/Nov/2017 22:49:07] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14?format=json HTTP/1.1" 500 14339
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 22:48:49
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 489, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 449, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/dev/local/lib/python2.7/site-packages/rest_framework/views.py", line 486, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/Django_Twist2/mysite/polls/views.py", line 23, in get
+    PrefijosLista=a.Busqueda(busqueda)
+AttributeError: Buscador instance has no attribute 'Busqueda'
+[22/Nov/2017 22:51:14] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14?format=json HTTP/1.1" 500 14372
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 22:51:09
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[22/Nov/2017 22:51:49] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14?format=json HTTP/1.1" 200 29
+[22/Nov/2017 22:51:57] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.1" 200 5542
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[22/Nov/2017 22:51:57] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[22/Nov/2017 22:52:26] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14?format=json HTTP/1.1" 200 29
+[22/Nov/2017 22:52:34] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.1" 200 5542
+[22/Nov/2017 22:53:43] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.1" 200 5542
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[22/Nov/2017 22:53:43] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+Not Found: /robots.txt
+[22/Nov/2017 22:53:43] "GET /robots.txt HTTP/1.1" 404 2403
+[22/Nov/2017 22:53:44] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[22/Nov/2017 22:53:44] "GET /favicon.ico HTTP/1.1" 404 2406
+[22/Nov/2017 22:54:07] "GET /Busqueda/busqueda/maquillajes%20de%20mujer/latitud/23/amplitud/14 HTTP/1.1" 200 5569
+[22/Nov/2017 22:54:26] "GET /Busqueda/busqueda/leon%20de%20teatro/latitud/23/amplitud/14 HTTP/1.1" 200 5530
+[22/Nov/2017 22:58:09] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14?format=json HTTP/1.1" 200 29
+[22/Nov/2017 22:58:25] "GET /Busqueda/busqueda/david/latitud/23/amplitud/14 HTTP/1.0" 200 20
+[22/Nov/2017 22:59:37] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0')
+[22/Nov/2017 22:59:37] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0" 400 -
+[22/Nov/2017 22:59:38] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0')
+[22/Nov/2017 22:59:38] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0" 400 -
+[22/Nov/2017 22:59:46] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0')
+[22/Nov/2017 22:59:46] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0" 400 -
+[22/Nov/2017 22:59:57] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14?format=json HTTP/1.1" 200 29
+Not Found: /favicon.ico
+[22/Nov/2017 22:59:57] "GET /favicon.ico HTTP/1.1" 404 2406
+[22/Nov/2017 23:00:14] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14?format=json HTTP/1.1" 200 29
+[22/Nov/2017 23:00:16] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0')
+[22/Nov/2017 23:00:16] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0" 400 -
+[22/Nov/2017 23:00:17] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0')
+[22/Nov/2017 23:00:17] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14?format=json HTTP/1.0" 400 -
+[22/Nov/2017 23:00:23] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:00:23] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:00:24] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:00:24] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:00:24] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:00:24] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:00:24] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:00:24] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:00:25] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:00:25] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:01:01] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14 HTTP/1.0" 200 21
+[22/Nov/2017 23:01:21] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:01:21] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:01:28] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:01:28] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:01:39] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14 HTTP/1.0" 200 21
+[22/Nov/2017 23:01:54] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:01:54] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:02:02] code 400, message Bad request syntax ('GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0')
+[22/Nov/2017 23:02:02] "GET /Busqueda/busqueda/carros de hombre/latitud/23/amplitud/14 HTTP/1.0" 400 -
+[22/Nov/2017 23:02:33] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.0" 200 29
+[22/Nov/2017 23:03:19] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.0" 200 29
+[22/Nov/2017 23:03:33] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.0" 200 29
+[22/Nov/2017 23:03:40] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.0" 200 29
+[22/Nov/2017 23:07:13] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.0" 200 29
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 22:51:45
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:14:44
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[22/Nov/2017 23:20:02] "GET /Busqueda/busqueda/carros%20de%20hombre/latitud/23/amplitud/14 HTTP/1.1" 200 5542
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:16:08
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+select campaign_name from campaigns where  (lower(campaign_name) like '%carr%' and lower(campaign_name) like '%hombr%' )
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:20:28
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:24:04
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:26:01
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:27:05
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:33:47
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:34:25
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:36:54
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:38:00
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:38:55
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:41:01
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:41:41
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:43:49
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[22/Nov/2017 23:50:42] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 83
+[22/Nov/2017 23:51:13] "GET /Busqueda/busqueda/alejandrok/latitud/23/amplitud/14?format=json HTTP/1.1" 200 15
+[22/Nov/2017 23:51:25] "GET /Busqueda/busqueda/alejandro/latitud/23/amplitud/14?format=json HTTP/1.1" 200 83
+[22/Nov/2017 23:51:32] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 429
+[22/Nov/2017 23:52:04] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 429
+[22/Nov/2017 23:52:32] "GET /Busqueda/busqueda/casa%20pastor/latitud/23/amplitud/14?format=json HTTP/1.1" 200 41
+[22/Nov/2017 23:52:42] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 429
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:49:06
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 22, 2017 - 23:59:36
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 00:00:32
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 00:05:48] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 429
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 00:03:17
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 00:08:44] "GET /Busqueda/busqueda/casa/latitud/23/amplitud/14?format=json HTTP/1.1" 200 430
+[23/Nov/2017 00:09:01] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 00:12:40] "GET /Busqueda/busqueda/carros%20de%20soccer/latitud/23/amplitud/14 HTTP/1.1" 200 5486
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[23/Nov/2017 00:12:40] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[23/Nov/2017 00:12:41] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[23/Nov/2017 00:12:53] "GET /Busqueda/busqueda/carros%20de%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5474
+[23/Nov/2017 00:13:07] "GET /Busqueda/busqueda/liga%20de%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5696
+[23/Nov/2017 00:13:07] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14?format=json HTTP/1.1" 200 83
+[23/Nov/2017 00:13:24] "GET /Busqueda/busqueda/liga%/latitud/23/amplitud/14 HTTP/1.1" 200 5644
+[23/Nov/2017 00:13:40] "GET /Busqueda/busqueda/ballet%/latitud/23/amplitud/14 HTTP/1.1" 200 5523
+[23/Nov/2017 00:13:47] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 00:13:48] "GET /Busqueda/busqueda/burana%/latitud/23/amplitud/14 HTTP/1.1" 200 5503
+[23/Nov/2017 00:17:11] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 00:20:43] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+[23/Nov/2017 00:21:12] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14?format=json HTTP/1.1" 200 83
+[23/Nov/2017 00:23:09] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
+Not Found: /favicon.ico
+[23/Nov/2017 00:23:09] "GET /favicon.ico HTTP/1.1" 404 2406
+[23/Nov/2017 00:58:02] "GET /Busqueda/busqueda/modas/latitud/23/amplitud/14?format=json HTTP/1.1" 200 38
