@@ -1090,3 +1090,540 @@ Not Found: /favicon.ico
 [23/Nov/2017 20:19:43] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14 HTTP/1.1" 200 5423
 [23/Nov/2017 20:20:02] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14 HTTP/1.1" 200 5423
 [23/Nov/2017 20:20:34] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14?format=json HTTP/1.1" 200 19
+[23/Nov/2017 20:23:57] "GET /Busqueda/busqueda/viaje/latitud/23/amplitud/14 HTTP/1.1" 200 5441
+[23/Nov/2017 20:24:03] "GET /Busqueda/busqueda/dinero/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[23/Nov/2017 20:24:08] "GET /Busqueda/busqueda/credito/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[23/Nov/2017 20:24:12] "GET /Busqueda/busqueda/lugar/latitud/23/amplitud/14 HTTP/1.1" 200 5400
+[23/Nov/2017 20:24:19] "GET /Busqueda/busqueda/experiencia/latitud/23/amplitud/14 HTTP/1.1" 200 5436
+[23/Nov/2017 20:24:26] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 5429
+Not Found: /Busqueda/busqueda//latitud/23/amplitud/14
+[23/Nov/2017 20:28:10] "GET /Busqueda/busqueda//latitud/23/amplitud/14 HTTP/1.0" 404 2496
+[23/Nov/2017 21:52:02] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.0" 200 19
+[23/Nov/2017 21:52:14] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.0" 200 19
+[23/Nov/2017 21:56:05] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14?format=json HTTP/1.1" 200 19
+[23/Nov/2017 22:11:12] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:11:52] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:11:53] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:12:08] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:12:14] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:12:33] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:12:49] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:12:50] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:12:54] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:00] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:00] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:06] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:23] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:24] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:31] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:46] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[23/Nov/2017 22:13:52] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:13:57] "GET /Busqueda/busqueda/nada/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[23/Nov/2017 22:14:01] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:15:00] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:15:01] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:15:09] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:16:38] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:19:01] "GET /Busqueda/busqueda/6%20meses/latitud/23/amplitud/14 HTTP/1.1" 200 5422
+[23/Nov/2017 22:19:09] "GET /Busqueda/busqueda/meses/latitud/23/amplitud/14 HTTP/1.1" 200 5468
+[23/Nov/2017 22:19:19] "GET /Busqueda/busqueda/6meses/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[23/Nov/2017 22:19:26] "GET /Busqueda/busqueda/6%20meses/latitud/23/amplitud/14 HTTP/1.1" 200 5422
+[23/Nov/2017 22:20:00] "GET /Busqueda/busqueda/15%20meses/latitud/23/amplitud/14 HTTP/1.1" 200 5428
+[23/Nov/2017 22:20:24] "GET /Busqueda/busqueda/macstore/latitud/23/amplitud/14 HTTP/1.1" 200 5434
+[23/Nov/2017 22:20:47] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:20:50] "GET /Busqueda/busqueda/6%20y%2012/latitud/23/amplitud/14 HTTP/1.1" 200 5426
+[23/Nov/2017 22:20:55] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:21:03] "GET /Busqueda/busqueda/6%20y%2012%20meses/latitud/23/amplitud/14 HTTP/1.1" 200 5472
+[23/Nov/2017 22:21:15] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:21:34] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:21:37] "GET /Busqueda/busqueda/2%20viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5428
+[23/Nov/2017 22:21:42] "GET /Busqueda/busqueda/2%20viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5428
+[23/Nov/2017 22:21:44] "GET /Busqueda/busqueda/2%20viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5428
+[23/Nov/2017 22:21:45] "GET /Busqueda/busqueda/2%20viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5428
+[23/Nov/2017 22:21:47] "GET /Busqueda/busqueda/2%20viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5428
+[23/Nov/2017 22:21:47] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 27
+[23/Nov/2017 22:22:07] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 25
+[23/Nov/2017 22:22:15] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5447
+[23/Nov/2017 22:22:24] "GET /Busqueda/busqueda/futball/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[23/Nov/2017 22:22:34] "GET /Busqueda/busqueda/ball/latitud/23/amplitud/14 HTTP/1.1" 200 5450
+[23/Nov/2017 22:22:56] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 25
+[23/Nov/2017 22:23:05] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5436
+[23/Nov/2017 22:23:08] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 25
+[23/Nov/2017 22:34:36] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 25
+[23/Nov/2017 22:34:40] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 25
+[23/Nov/2017 22:34:46] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 25
+[23/Nov/2017 23:10:31] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 26
+[23/Nov/2017 23:14:10] "GET /Busqueda/busqueda/carros/latitud/23/amplitud/14?format=json HTTP/1.1" 200 19
+Not Found: /favicon.ico
+[23/Nov/2017 23:14:10] "GET /favicon.ico HTTP/1.1" 404 2406
+[23/Nov/2017 23:14:39] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14?format=json HTTP/1.1" 200 26
+[23/Nov/2017 23:15:10] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5436
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[23/Nov/2017 23:15:10] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[23/Nov/2017 23:19:52] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5436
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 20:14:04
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 23:24:33] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5889
+[23/Nov/2017 23:24:46] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5889
+[23/Nov/2017 23:26:51] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14 HTTP/1.1" 200 5555
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:24:23
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 23:28:33] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14 HTTP/1.1" 200 5572
+[23/Nov/2017 23:28:39] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5940
+[23/Nov/2017 23:29:26] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5940
+[23/Nov/2017 23:29:35] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5940
+[23/Nov/2017 23:29:45] "GET /Busqueda/busqueda/compras/latitud/23/amplitud/14 HTTP/1.1" 200 7654
+[23/Nov/2017 23:29:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+[23/Nov/2017 23:29:51] "  /*à     Cookie: mstshash=Administr" 400 -
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:28:29
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fd14dc6b758>
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 149, in inner_run
+    ipv6=self.use_ipv6, threading=threading, server_cls=self.server_cls)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 174, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 230, in serve_forever
+    r, w, e = _eintr_retry(select.select, [self], [], [],
+AttributeError: 'NoneType' object has no attribute 'select'
+[23/Nov/2017 23:33:05] "GET /Busqueda/busqueda/compras/latitud/23/amplitud/14 HTTP/1.1" 200 7553
+[23/Nov/2017 23:33:21] "GET /Busqueda/busqueda/patron/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[23/Nov/2017 23:33:35] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5940
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:32:58
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 23:35:25] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6120
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:35:21
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 23:41:01] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:04] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:05] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:06] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:13] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:14] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:15] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:16] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:17] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:18] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:19] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:20] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:41:53] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 155
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:40:57
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:43:03
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[23/Nov/2017 23:46:05] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:46:12] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:46:14] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:46:15] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 6036
+[23/Nov/2017 23:46:28] "GET /Busqueda/busqueda/perro/latitud/23/amplitud/14 HTTP/1.1" 200 5400
+[23/Nov/2017 23:46:37] "GET /Busqueda/busqueda/promocion/latitud/23/amplitud/14 HTTP/1.1" 200 6930
+[23/Nov/2017 23:47:12] "GET /Busqueda/busqueda/futball/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[23/Nov/2017 23:47:19] "GET /Busqueda/busqueda/carro/latitud/23/amplitud/14 HTTP/1.1" 200 5604
+[23/Nov/2017 23:47:27] "GET /Busqueda/busqueda/carrera/latitud/23/amplitud/14 HTTP/1.1" 200 5616
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:46:01
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f0c4cc11758>
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 149, in inner_run
+    ipv6=self.use_ipv6, threading=threading, server_cls=self.server_cls)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 174, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 230, in serve_forever
+    r, w, e = _eintr_retry(select.select, [self], [], [],
+AttributeError: 'NoneType' object has no attribute 'select'
+[23/Nov/2017 23:51:25] "GET /Busqueda/busqueda/carrera/latitud/23/amplitud/14 HTTP/1.1" 200 5683
+[23/Nov/2017 23:51:38] "GET /Busqueda/busqueda/carreras/latitud/23/amplitud/14 HTTP/1.1" 200 5689
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:51:18
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:56:09
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:00:08] "GET /Busqueda/busqueda/carreras/latitud/23/amplitud/14 HTTP/1.1" 200 5590
+[24/Nov/2017 00:00:11] "GET /Busqueda/busqueda/carreras/latitud/23/amplitud/14 HTTP/1.1" 200 5590
+[24/Nov/2017 00:00:18] "GET /Busqueda/busqueda/carrera/latitud/23/amplitud/14 HTTP/1.1" 200 5584
+[24/Nov/2017 00:00:26] "GET /Busqueda/busqueda/carreras/latitud/23/amplitud/14 HTTP/1.1" 200 5590
+[24/Nov/2017 00:00:32] "GET /Busqueda/busqueda/carrera/latitud/23/amplitud/14 HTTP/1.1" 200 5584
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 23:59:59
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:02:19] "GET /Busqueda/busqueda/carrera/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[24/Nov/2017 00:02:26] "GET /Busqueda/busqueda/carreras/latitud/23/amplitud/14 HTTP/1.1" 200 5418
+[24/Nov/2017 00:02:32] "GET /Busqueda/busqueda/carrer/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[24/Nov/2017 00:02:39] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:02:14
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:03:55] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 00:03:57] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 00:03:59] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 00:04:23] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 00:04:32] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 16
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:03:52
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:04:43] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5940
+[24/Nov/2017 00:04:52] "GET /Busqueda/busqueda/carrera/latitud/23/amplitud/14 HTTP/1.1" 200 5584
+[24/Nov/2017 00:05:02] "GET /Busqueda/busqueda/carreras/latitud/23/amplitud/14 HTTP/1.1" 200 5590
+[24/Nov/2017 00:05:15] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5940
+[24/Nov/2017 00:05:28] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5602
+[24/Nov/2017 00:05:36] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5968
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:04:38
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:07:04] "GET /Busqueda/busqueda/la%20liga/latitud/23/amplitud/14 HTTP/1.1" 200 5422
+[24/Nov/2017 00:07:12] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:06:58
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:08:10] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[24/Nov/2017 00:08:12] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[24/Nov/2017 00:08:14] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[24/Nov/2017 00:08:19] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:08:05
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:09:06] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5940
+[24/Nov/2017 00:09:29] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 149
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:09:02
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fe511a41758>
+Traceback (most recent call last):
+  File "/root/dev/local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 149, in inner_run
+    ipv6=self.use_ipv6, threading=threading, server_cls=self.server_cls)
+  File "/root/dev/local/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 174, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 230, in serve_forever
+    r, w, e = _eintr_retry(select.select, [self], [], [],
+AttributeError: 'NoneType' object has no attribute 'select'
+[24/Nov/2017 00:11:21] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:11:17
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:12:46] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5559
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:12:42
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:18:01] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5452
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:17:55
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 00:18:41] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5411
+[24/Nov/2017 00:19:49] "GET /Busqueda/busqueda/promocion/latitud/23/amplitud/14 HTTP/1.1" 200 5454
+[24/Nov/2017 00:21:39] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:21:49] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:22:12] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:22:31] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:22:32] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:22:57] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:23:09] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:24:55] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:25:05] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:26:07] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:26:10] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:26:16] "GET /Busqueda/busqueda/promociones/latitud/23/amplitud/14 HTTP/1.1" 200 5466
+[24/Nov/2017 00:26:21] "GET /Busqueda/busqueda/futbol/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 00:26:26] "GET /Busqueda/busqueda/soccer/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 00:26:30] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:26:44] "GET /Busqueda/busqueda/deporte/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:26:49] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:26:56] "GET /Busqueda/busqueda/deportes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:27:05] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+[24/Nov/2017 00:34:47] "GET /Busqueda/busqueda/princesa/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:35:00] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 00:41:54] "GET /Busqueda/busqueda/entrete/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[24/Nov/2017 00:41:57] "GET /Busqueda/busqueda/entrete/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+Not Found: /Busqueda/la liga/entrete/latitud/23/amplitud/14
+[24/Nov/2017 00:42:07] "GET /Busqueda/la%20liga/entrete/latitud/23/amplitud/14 HTTP/1.1" 404 2516
+[24/Nov/2017 00:42:20] "GET /Busqueda/busqueda/entrete/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[24/Nov/2017 00:42:20] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[24/Nov/2017 00:42:24] "GET /Busqueda/busqueda/entrete/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[24/Nov/2017 00:42:32] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[24/Nov/2017 00:49:03] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5411
+[24/Nov/2017 00:54:54] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 5456
+[24/Nov/2017 00:57:41] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 5456
+[24/Nov/2017 00:58:36] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 31
+[24/Nov/2017 00:59:20] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[24/Nov/2017 00:59:42] "GET /Busqueda/busqueda/entretenimiento/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 00:59:52] "GET /Busqueda/busqueda/ganar/latitud/23/amplitud/14 HTTP/1.1" 200 87
+[24/Nov/2017 01:06:03] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[24/Nov/2017 01:06:15] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[24/Nov/2017 01:08:10] "GET /Busqueda/busqueda/ganar/latitud/23/amplitud/14 HTTP/1.1" 200 87
+[24/Nov/2017 01:43:22] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5411
+Not Found: /favicon.ico
+[24/Nov/2017 01:43:22] "GET /favicon.ico HTTP/1.1" 404 2406
+[24/Nov/2017 01:47:23] "GET /Busqueda/busqueda/askjsa/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 01:50:14] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5411
+[24/Nov/2017 01:53:50] "GET /Busqueda/busqueda/Nfl/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 01:54:37] "GET /Busqueda/busqueda/Hola/latitud/23/amplitud/14 HTTP/1.1" 200 18
+[24/Nov/2017 01:54:43] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:55:44] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 31
+[24/Nov/2017 01:56:20] "GET /Busqueda/busqueda/promocion/latitud/23/amplitud/14 HTTP/1.1" 200 23
+[24/Nov/2017 01:56:41] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:57:03] "GET /Busqueda/busqueda/viajes+liverpool/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 01:57:15] "GET /Busqueda/busqueda/soccer/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 01:57:56] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:58:10] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:58:44] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:58:54] "GET /Busqueda/busqueda/princesa/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:59:06] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:59:16] "GET /Busqueda/busqueda/princesa/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:59:23] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 01:59:40] "GET /Busqueda/busqueda/futball/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:00:37] "GET /Busqueda/busqueda/nfl/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:00:44] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 02:01:00] "GET /Busqueda/busqueda/nfl/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:01:06] "GET /Busqueda/busqueda/americano/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 02:03:10] "GET /Busqueda/busqueda/telefonos+celulares/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:10] "GET /Busqueda/busqueda/promocion/latitud/23/amplitud/14 HTTP/1.1" 200 23
+[24/Nov/2017 02:03:17] "GET /Busqueda/busqueda/celulares/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:19] "GET /Busqueda/busqueda/comida+/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:22] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:27] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:28] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 02:03:38] "GET /Busqueda/busqueda/cine/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:39] "GET /Busqueda/busqueda/cine/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:44] "GET /Busqueda/busqueda/cine/latitud/23/amplitud/14 HTTP/1.1" 200 16
+[24/Nov/2017 02:03:45] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 02:12:25] "GET /Busqueda/busqueda/americano/latitud/23/amplitud/14 HTTP/1.1" 200 19
+[24/Nov/2017 02:13:01] "GET /Busqueda/busqueda/cine/latitud/23/amplitud/14 HTTP/1.1" 200 16
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 00:18:37
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 02:32:07] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5411
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[24/Nov/2017 02:32:07] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 02:32:00
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 02:33:14
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 02:45:04] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 02:45:08] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 02:45:10] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 02:45:12] "GET /Busqueda/busqueda/liga/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 02:45:17] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5406
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 02:44:57
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 02:48:04] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[24/Nov/2017 02:48:10] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 02:47:59
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 02:51:30] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[24/Nov/2017 02:51:33] "GET /Busqueda/busqueda/laliga/latitud/23/amplitud/14 HTTP/1.1" 200 5423
+[24/Nov/2017 02:51:49] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 5456
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 02:51:23
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 02:56:28] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 5456
+[24/Nov/2017 02:56:31] "GET /Busqueda/busqueda/promo/latitud/23/amplitud/14 HTTP/1.1" 200 5456
+[24/Nov/2017 02:57:04] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 8996
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 02:56:22
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 04:09:05] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 8545
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 04:08:34
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 04:14:12] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 8545
+[24/Nov/2017 04:14:37] "GET /Busqueda/busqueda/pizza/latitud/23/amplitud/14 HTTP/1.1" 200 5430
+[24/Nov/2017 04:17:29] "GET /Busqueda/busqueda/VIAJES/latitud/23/amplitud/14 HTTP/1.1" 200 5436
+[24/Nov/2017 04:17:29] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[24/Nov/2017 04:17:29] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[24/Nov/2017 04:17:29] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[24/Nov/2017 04:17:30] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[24/Nov/2017 04:17:38] "GET /Busqueda/busqueda/pizza/latitud/23/amplitud/14 HTTP/1.1" 200 5430
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[24/Nov/2017 04:17:39] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[24/Nov/2017 04:17:40] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[24/Nov/2017 04:17:41] "GET /favicon.ico HTTP/1.1" 404 2406
+[24/Nov/2017 04:17:58] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 8545
+[24/Nov/2017 06:14:49] "GET /Busqueda/busqueda/pizza/latitud/23/amplitud/14 HTTP/1.1" 200 5430
+[24/Nov/2017 06:14:53] "GET /Busqueda/busqueda/pizza/latitud/23/amplitud/14 HTTP/1.1" 200 5430
+[24/Nov/2017 06:14:56] "GET /Busqueda/busqueda/pizza/latitud/23/amplitud/14 HTTP/1.1" 200 5430
+[24/Nov/2017 06:23:49] "GET /Busqueda/busqueda/pizza/latitud/23/amplitud/14 HTTP/1.1" 200 5430
+[24/Nov/2017 06:30:26] "GET /Busqueda/busqueda/comida/latitud/23/amplitud/14 HTTP/1.1" 200 8545
+[24/Nov/2017 06:31:25] "GET /Busqueda/busqueda/futball/latitud/23/amplitud/14 HTTP/1.1" 200 5412
+[24/Nov/2017 06:31:47] "GET /Busqueda/busqueda/viajes/latitud/23/amplitud/14 HTTP/1.1" 200 5436
+[24/Nov/2017 06:32:02] "GET /Busqueda/busqueda/zapatos/latitud/23/amplitud/14 HTTP/1.1" 200 5452
+[24/Nov/2017 06:34:33] "GET /Busqueda/busqueda/fifa/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 06:35:24] "GET /Busqueda/busqueda/fifa/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 04:13:41
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2017 - 06:53:29
+Django version 1.11.7, using settings 'mysite.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Nov/2017 07:15:42] "GET /Busqueda/busqueda/fifa/latitud/23/amplitud/14 HTTP/1.1" 200 5394
+[24/Nov/2017 07:15:53] "GET /Busqueda/busqueda/nfl/latitud/23/amplitud/14 HTTP/1.1" 200 5504
+[24/Nov/2017 07:21:16] "GET /Busqueda/busqueda/nfl/latitud/23/amplitud/14 HTTP/1.1" 200 5504

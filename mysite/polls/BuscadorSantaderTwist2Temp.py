@@ -43,12 +43,6 @@ class Buscador:
   CadenaSQLDos=""""""
   CadenaSQLTres=""""""
   CadenaSQLCuatro=""""""
-  CadenaSQLCinco=""""""
-  CadenaSQLSeis=""""""
-  CadenaSQLSiete=""""""
-  CadenaSQLOcho=""""""
-  CadenaSQLNueve=""""""
-
   TerminosRelevantesUsuario=[]
   TokensPatron=nltk.word_tokenize(patron.lower())
   StopWordsSpanish=stopwords.words('spanish')
@@ -68,111 +62,50 @@ class Buscador:
   SinRuidoPatron=[]
   SinRuidoPatron= [stemmer.stem(a) for a in TokensPatron]
 
-  """
-   select campaigns.campaign_id,campaign_name,promos.title,home,paragraph,promos.keywords,promos.categories,promos.terms,promos.detail,campaigns.title from campaigns inner join promos on campaigns.campaign_id=promos.campaign_id  where  ()
-  """
-
   i=0  
   while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLUno=CadenaSQLUno+"lower(campaigns.campaign_name) like '%"+SinRuidoPatron[i]+"%' and "
+   CadenaSQLUno=CadenaSQLUno+"lower(campaign_name) like '%"+SinRuidoPatron[i]+"%' and "
    i=i+1
  
   if (len(SinRuidoPatron)>0):
-   CadenaSQLUno=CadenaSQLUno+"lower(campaigns.campaign_name) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
+   CadenaSQLUno=CadenaSQLUno+"lower(campaign_name) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
 
   CadenaSQLUno="("+CadenaSQLUno+")"
 
   i=0  
   while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLDos=CadenaSQLDos+"lower(campaigns.title) like '%"+SinRuidoPatron[i]+"%' and "
+   CadenaSQLDos=CadenaSQLDos+"lower(title) like '%"+SinRuidoPatron[i]+"%' and "
    i=i+1
  
   if (len(SinRuidoPatron)>0):
-   CadenaSQLDos=CadenaSQLDos+"lower(campaigns.title) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
+   CadenaSQLDos=CadenaSQLDos+"lower(title) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
 
   CadenaSQLDos="("+CadenaSQLDos+")"
 
 
   i=0  
   while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLTres=CadenaSQLTres+"lower(campaigns.home) like '%"+SinRuidoPatron[i]+"%' and "
+   CadenaSQLTres=CadenaSQLTres+"lower(home) like '%"+SinRuidoPatron[i]+"%' and "
    i=i+1
  
   if (len(SinRuidoPatron)>0):
-   CadenaSQLTres=CadenaSQLTres+"lower(campaigns.home) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
+   CadenaSQLTres=CadenaSQLTres+"lower(home) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
 
   CadenaSQLTres="("+CadenaSQLTres+")"
 
   i=0  
   while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLCuatro=CadenaSQLCuatro+"lower(campaigns.paragraph) like '%"+SinRuidoPatron[i]+"%' and "
+   CadenaSQLCuatro=CadenaSQLCuatro+"lower(paragraph) like '%"+SinRuidoPatron[i]+"%' and "
    i=i+1
  
   if (len(SinRuidoPatron)>0):
-   CadenaSQLCuatro=CadenaSQLCuatro+"lower(campaigns.paragraph) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
+   CadenaSQLCuatro=CadenaSQLCuatro+"lower(paragraph) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
 
   CadenaSQLCuatro="("+CadenaSQLCuatro+")"
 
-  i=0  
-  while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLCinco=CadenaSQLCinco+"lower(promos.title) like '%"+SinRuidoPatron[i]+"%' and "
-   i=i+1
- 
-  if (len(SinRuidoPatron)>0):
-   CadenaSQLCinco=CadenaSQLCinco+"lower(promos.title) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
-
-  CadenaSQLCinco="("+CadenaSQLCinco+")"
-
-  i=0  
-  while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLSeis=CadenaSQLSeis+"lower(promos.keywords) like '%"+SinRuidoPatron[i]+"%' and "
-   i=i+1
- 
-  if (len(SinRuidoPatron)>0):
-   CadenaSQLSeis=CadenaSQLSeis+"lower(promos.keywords) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
-
-  CadenaSQLSeis="("+CadenaSQLSeis+")"
 
 
-  i=0  
-  while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLSiete=CadenaSQLSiete+"lower(promos.categories) like '%"+SinRuidoPatron[i]+"%' and "
-   i=i+1
- 
-  if (len(SinRuidoPatron)>0):
-   CadenaSQLSiete=CadenaSQLSiete+"lower(promos.categories) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
-
-  CadenaSQLSiete="("+CadenaSQLSiete+")"
-
-  i=0  
-  while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLOcho=CadenaSQLOcho+"lower(promos.terms) like '%"+SinRuidoPatron[i]+"%' and "
-   i=i+1
- 
-  if (len(SinRuidoPatron)>0):
-   CadenaSQLOcho=CadenaSQLOcho+"lower(promos.terms) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
-
-  CadenaSQLOcho="("+CadenaSQLOcho+")"
-
-  i=0  
-  while(i<(len(SinRuidoPatron)-1)):
-   CadenaSQLNueve=CadenaSQLNueve+"lower(promos.detail) like '%"+SinRuidoPatron[i]+"%' and "
-   i=i+1
- 
-  if (len(SinRuidoPatron)>0):
-   CadenaSQLNueve=CadenaSQLNueve+"lower(promos.detail) like '%"+SinRuidoPatron[len(SinRuidoPatron)-1]+"%' "
-
-  CadenaSQLNueve="("+CadenaSQLNueve+")"
-
-  
-  
-  """
-   promos.title,promos.keywords,promos.categories,promos.terms,promos.detail
-  """
-  
-  QueryPromos=(CadenaSQLCinco+" or "+CadenaSQLSeis+" or "+CadenaSQLSiete+" or "+CadenaSQLOcho+"  or "+CadenaSQLNueve)
-
-  QueryString= "select campaigns.campaign_id,campaigns.campaign_name,campaigns.title,campaigns.home,campaigns.paragraph,promos.title,promos.keywords,promos.categories,promos.terms,promos.detail from campaigns inner join promos on campaigns.campaign_id=promos.campaign_id   where ( (promos.visibility=1) and ("+CadenaSQLUno+" or "+CadenaSQLDos+" or  "+CadenaSQLTres+" or "+CadenaSQLCuatro+" or "+QueryPromos+"))"
+  QueryString= "select campaign_id,campaign_name,title,home,paragraph from campaigns where ("+CadenaSQLUno+" or "+CadenaSQLDos+" or  "+CadenaSQLTres+" or "+CadenaSQLCuatro+")"
 
   _con = getCon()
 
@@ -183,13 +116,10 @@ class Buscador:
    
   
    Busquedas=[]
-   NDT=[1.0]*len(SinRuidoPatron)   
-   MaquinaEstadosNDT=['0']*len(SinRuidoPatron)
-   DimensionalidadDocumento=0.0
 
    for row in rows:
     DimensionalidadDocumento=DimensionalidadDocumento+1.0
-    Codificacion= (row[1].lower())+" "+(row[2].lower())+" "+(row[3].lower())+" "+(row[4].lower())+" "+(row[5].lower())+" "+(row[6].lower())+" "+(row[7].lower())+" "+(row[8].lower())+" "+(row[9].lower())
+    Codificacion= (row[1].lower())+" "+(row[2].lower())+" "+(row[3].lower())+" "+(row[4].lower())
     Codificacion= Codificacion.replace(".", "")
     Codificacion= Codificacion.replace("-", "")
     Codificacion= Codificacion.replace(":", "")
